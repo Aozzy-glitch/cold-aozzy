@@ -5,8 +5,36 @@
   right: 0;
   top: 50%;
   transform: translateY(-50%);
+  background: url(Night.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100%;
+  align-items: center;
 }
 
+.myimage{
+  top: 25%;
+  position: fixed;
+  left: 25%;
+  right: 25%;
+}
+
+h1{
+  color: white;
+  font-size: 30px!important;
+}
+
+p{
+  color: lightblue!important;
+  font-size: 22px!important;
+}
+.button{
+  padding: 20px;
+  background-color: black;
+  color:white;
+  border-radius: 16px;
+  margin-top: 20px;
+}
 .container strong {
   font-size: 20px;
   line-height: 26px;
