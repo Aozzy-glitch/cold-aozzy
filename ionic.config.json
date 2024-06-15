@@ -1,0 +1,8 @@
+{
+  "name": "ColdAozzy",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite",
+  "id": "a6af99e1"
+}
