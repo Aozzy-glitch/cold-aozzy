@@ -7,16 +7,36 @@ const Tab1: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Home</IonTitle>
+          <IonTitle>Coding</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Home</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-        <ExploreContainer name="Home page" />
+      <IonContent>
+        <div className='mycontainer'>
+          <div className='nopp'></div>
+          <div className='containerinacontainer'>
+      
+              <div className='myinnercontainer'>
+  
+              <h1 className='h12'>Learn Coding
+              <br/>
+              Anytime</h1>
+              <p>Designed for kids and Teens</p>
+
+
+              <button className='btn12'>Get started &nbsp; &#8594;</button>
+        
+            </div>
+
+            <div className='myinnercontainer'>
+            <img src='https://parachictacademy.com.ng/wp-content/uploads/2022/04/coding-classes-for-kids-in-Ibadan.png'/>
+            </div>
+          
+
+            </div>
+            
+
+
+        </div>
       </IonContent>
     </IonPage>
   );

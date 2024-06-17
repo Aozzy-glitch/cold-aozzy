@@ -1,0 +1,39 @@
+.mycontainer{
+    height: 100%;
+    width: 100%;
+    min-height: 1000px;
+    background-color: #F4EBC1;
+}
+
+.containerinacontainer{
+    width: 70%;
+    background-color: #F2DD72;
+    margin: 0 auto;
+    height: 400px;
+    border-radius: 40px; 
+    padding: 30px;
+}
+
+.myinnercontainer{
+    background-color: #F2DD72;
+    width: 48%;
+    float: left;
+}
+.nopp{
+    height: 100px;
+    width: 100%;
+}
+
+.h12{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.btn12{
+    background-color: #5AB98C;
+    padding: 15px;
+    border-radius: 18px;
+    width: 200px;
+    color: white;
+}
+
